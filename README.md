@@ -2,13 +2,14 @@
 
 # 🌳 The Git & GitHub Cheat Sheet 🚀
 
-### *My personal notes: from `git init` to time-travelling with `reflog`*
+### *My notes: from `git init` to time-travelling with `reflog`*
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Notes](https://img.shields.io/badge/Status-Always%20Learning-brightgreen?style=for-the-badge)
 ![Commands](https://img.shields.io/badge/Commands-100%2B-blueviolet?style=for-the-badge)
 
+*Ordered oldest → newest, so it reads like the course actually plays.* 🎬
 
 </div>
 
@@ -41,12 +42,12 @@
 
 ```mermaid
 flowchart LR
-    A[📝 Working Directory] -- git add --> B[🎭 Staging Area]
-    B -- git commit --> C[🏛️ Local Repo]
-    C -- git push --> D[☁️ Remote / GitHub]
-    D -- git fetch --> C
-    D -- git pull --> A
-    B -- git restore --staged --> A
+    A["📝 Working Directory"] -->|"git add"| B["🎭 Staging Area"]
+    B -->|"git commit"| C["🏛️ Local Repo"]
+    C -->|"git push"| D["☁️ Remote / GitHub"]
+    D -->|"git fetch"| C
+    D -->|"git pull"| A
+    B -->|"git restore --staged"| A
 ```
 
 ---
