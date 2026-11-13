@@ -2,7 +2,7 @@
 
 # 🌳 The Git & GitHub Cheat Sheet 🚀
 
-### *My personal notes from the course: from `git init` to time-travelling with `reflog`*
+### *My personal notes: from `git init` to time-travelling with `reflog`*
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
